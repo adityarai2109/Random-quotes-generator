@@ -121,7 +121,7 @@ function App() {
   let bg = "rgb(" + rgb.join(",") + ")";
 
   function Randomiser() {
-    setI(Math.floor(Math.random() * 20 + 1));
+    setI(Math.floor(Math.random() * 19 + 1));
     console.log(i);
   }
 
@@ -160,7 +160,7 @@ function App() {
           </div>
           <div id="new-quote">
             <button onClick={Randomiser} style={{ backgroundColor: bg }}>
-              NEW QUOTE
+              Next quote
             </button>
           </div>
         </div>
