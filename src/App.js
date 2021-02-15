@@ -11,7 +11,7 @@ function App() {
   let bg = "rgb(" + rgb.join(",") + ")";
 
   function Randomiser() {
-    setI(Math.floor(Math.random() * 19 + 1));
+    setI(Math.floor(Math.random() * 101 + 1));
   }
 
   return (
